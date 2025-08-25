@@ -63,7 +63,7 @@ void log_log(int level, const char *file, int line, const char *fmt, ...);
 
 #endif
 
-#ifndef LOG_H_IMPLEMENTATION
+#ifdef LOG_H_IMPLEMENTATION
 #define LOG_H_IMPLEMENTATION
 
 #define MAX_CALLBACKS 32
